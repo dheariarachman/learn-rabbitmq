@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start:publisher": "node publisher.js",
+    "start:consumer": "node consumer.js"
+  },
   "dependencies": {
     "amqplib": "^0.10.4"
   }
